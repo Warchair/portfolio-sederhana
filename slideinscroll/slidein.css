@@ -1,0 +1,22 @@
+.js-slidein {
+  opacity: 0;
+  transform: translateY(100px);
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.js-slidein-visible {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+}
+
+.input-slidein {
+  opacity: 0;
+  transform: translateX(-300px);
+  transition: all 700ms ease-out;
+}
+
+.input-slidein-visible {
+  opacity: 1 !important;
+  transform: translateX(0) !important;
+}

@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Righteous";
+  src: url("../font/Righteous-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Fredoka";
+  src: url("../font/FredokaOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "newcycle";
+  src: url("../font/NewsCycle-Regular.ttf") format("truetype");
+}
+
+a.navbar-brand {
+  font-family: "Righteous";
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  background-color: transparent;
+  transition: all .3s ease-in-out;
+}
+a.nav-link {
+  color: black;
+  font-weight: bold;
+}
+a.nav-link:hover {
+  color: white;
+}
+.navbar-toggler {
+  outline: none !important;
+}
+
+.home {
+  background-image: url(../img/header/header.png);
+  background-size: cover;
+  width: 100%;
+  min-height: 90vh;
+  background-position: bottom;
+}
+
+.home h1 {
+  margin-top: 120px;
+  font-family: "Fredoka";
+  font-size: 70px;
+}
+.home h4 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+.home .btn {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.26);
+  background-color: rgb(5, 182, 34);
+  font-weight: bold;
+  color: white;
+}
+.home img {
+  width: 300px;
+  height: 300px;
+  margin-top: 55px;
+  margin-left: 60px;
+}
+
+/* about */
+
+.about .subabout {
+  margin-bottom:200px;
+}
+
+.container .judul {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 100px;
+}
+
+.line,  .line2 {
+  width: 130px;
+  height: 25px;
+  background-color: rgb(87, 200, 172);
+  margin: 2px auto;
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+  z-index: -999;
+}
+.line2 {
+  width: 200px;
+}
+
+.square {
+  border-radius: 8px;
+  background: -webkit-linear-gradient(
+    bottom,
+    rgb(22, 246, 153),
+    rgb(108, 194, 243)
+  );
+  box-sizing: border-box;
+  border-left: 8px solid rgb(236, 123, 78);
+  box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.3);
+}
+
+.square p {
+  padding: 0 10px 10px 10px;
+}
+
+.square h5 {
+  padding: 20px 10px 10px 10px;
+}
+
+.service {
+  margin-top:-100px;
+}
+
+.service .progress {
+  margin-bottom:-80px;
+}
+
+.picture-service {
+  margin-top:10px;
+}
+
+
+
+/* skills */
+
+.skills {
+  background-image: url(../img/header/skills.png);
+  background-size: cover;
+  width: 100%;
+  min-height: 90vh;
+  background-position: bottom;
+}
+
+.skills h1 {
+  margin-top:50px;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-left: 8px solid rgb(28, 81, 165);
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
+/* client */
+
+.subclient {
+  width:100%;
+  background-color: rgb(145, 236, 165);
+
+}
+
+.subclient h1 {
+  margin-top:20px;
+  margin-bottom: 30px;
+}
+
+
+.tokopedia{
+  width:300px;
+  height:100px;
+  margin-top:40px;
+}
+.shopee {
+  width: 300px;
+  height:300px;
+  margin-top:-80px;
+}
+
+.gojek {
+  width: 250px;
+  height: 60px;
+  margin-top:70px;
+}
+
+.traveloka {
+  width: 320px;
+  height: 120px;
+  margin-top:30px;
+}
+
+.bukalapak {
+  width: 250px;
+  height:40px;
+  margin-top:45px;
+}
+
+/* supported */
+
+.subsupported {
+  width:100%;
+  padding:40px;
+  background-color:rgb(218, 218, 218);
+}
+
+.subsupported h1 {
+  margin-bottom:30px;
+}
+.google, .apple, .microsoft {
+
+  width: 100px;
+  height: 100px;
+}
+
+/* form */
+
+.judul2 {
+  margin-top:50px;
+}
+
+.contact label {
+  font-family:"newcycle";
+  font-size: 23px;
+}
+
+#form-name, #form-email, #form-information {
+  border:none;
+  border-radius: 0;
+  border-bottom:2px solid black;
+}
+
+.contact .row button {
+  padding: 5px 20px 5px 20px;
+  font-size: 20px;
+  box-shadow: 2px 2px 2px rgb(0, 0,0, .5);
+}
+
+.contact img {
+  width: 400px;
+  height:400px;
+}
+
+
+/* footer */
+footer {
+  width:100%;
+  height:90px;
+  background-color:rgb(68, 180, 214);
+}
+footer h4 {
+  font-family:"Righteous";
+  margin-top:2px;
+}
+
+@media (max-width: 375px) {
+  .home img {
+    display: none;
+  }
+  
+  /* .square {
+    width:300px;
+    height:200px;
+  } */
+}
+@media (max-width: 768px) {
+  .contact img {
+    display:none;
+  }
+}
+
+.ha {
+  background-color: rgb(105, 218, 30);
+}
